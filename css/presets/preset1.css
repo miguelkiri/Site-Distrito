@@ -1,0 +1,470 @@
+/* Global styles
+================================================== */
+
+a{
+	color: #e34e71;
+}
+
+a.read-more:hover{
+	color: #e34e71;
+}
+
+
+/* Typography
+================================================== */
+
+.btn.btn-primary{
+	border: 2px solid #e34e71;
+}
+
+.btn.btn-primary:hover{
+	background: #e34e71;
+}
+
+.btn.btn-primary.solid{
+	background: #e34e71;
+}
+
+ul.circle li:before{
+	color: #e34e71;
+}
+
+ul.check-list li i{
+	color: #e34e71;
+}
+
+blockquote {
+	border-left: 5px solid #e34e71;
+}
+
+/* Common styles
+================================================== */
+
+.heading:hover .title-icon{/*icones equipe*/
+	color: #e34e71
+}
+
+h2.entry-title a:hover{
+	color: #e34e71;
+}
+
+/* Icon pentagon formatos footer*/
+
+.icon-pentagon{
+	background: none repeat scroll 0 0 #e34e71;
+}
+
+.icon-pentagon:before{
+	border-bottom: 10px solid #e34e71 ;
+}
+
+.icon-pentagon:after {
+	border-top: 10px solid #e34e71;
+}
+
+.service-icon:before {
+	border-bottom: 30px solid #e34e71;
+}
+
+.service-icon:after {
+	border-top: 30px solid #e34e71;
+}
+
+/* Carousel controller */
+
+.ts-carousel-controller .left:hover,
+.ts-carousel-controller .right:hover,
+.owl-controls .owl-prev:hover, 
+.owl-controls .owl-next:hover{
+	background: #c10042;
+}
+
+/* Input form */
+
+.form-control:focus{
+	border: 1px solid #c10042 !important;
+}
+
+/* Flex Slider */
+
+.portfolio-slider .flex-direction-nav a:hover,
+.second-slider .flex-direction-nav a:hover {
+	background: #c10042;
+}
+
+/* Pagination */
+
+.pagination>.active>a, .pagination>.active>a:hover,
+.pagination>li>a:hover{
+	background: #c10042;
+}
+
+/* RDA's Home Alignment */
+
+.text-center {
+	margin: 0 auto;
+	padding: -5px;
+	/*border: 1px solid #000000; */
+	
+}
+
+.aling-icon{
+	margin: 0 auto;
+}
+
+/* Imagem mascotes */
+.img_hino {
+	width: 300px; 
+}
+
+.img_hino_circle{
+	width: 200px;
+}
+
+.direita {
+	float: right;
+}
+.esquerda {
+	float: left;
+}
+
+.img_color{
+	background: #cec8c8b9;
+}
+
+/* Efeito Botao*/
+.efeito {
+	border: none;
+	color: #ffffff;
+	padding: 5px 15px 5px 15px;
+	margin: 10px;
+	font-size: 24px;
+	line-height: 24px;
+	border-radius: 30px;
+	position: center;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all 400ms ease;
+}
+
+
+.efeito_3 {
+	background: #e34e71;
+}
+
+.efeito_3:hover {
+	background: rgba(0, 0, 0, 0);
+	color: #e34e71;
+	box-shadow: inset 0 0 0 3px #e34e71;
+}
+
+.img-tamanho{
+	width: 80% ;
+	
+	
+}
+.navbar-header{
+	width: 20%;
+}
+/* Header area
+================================================== */
+
+/*-- Header --*/
+.header{
+	border-top: 5px solid #c10042;
+}
+
+.header-solid ul.navbar-nav > li:hover > a, .header-solid ul.navbar-nav > li.active > a {
+  color: #c10042;
+}
+
+/*-- Logo --*/
+
+/*.navbar-brand{
+	background ;
+}*/
+
+/*-- Main navigation --*/
+
+ul.navbar-nav > li:hover > a, 
+ul.navbar-nav > li.active > a{
+	color: #000000;
+}
+
+.navbar-toggle{
+	background: #e34e71;
+}
+
+.dropdown-menu > ul > li.active > a{
+	color: #000000;
+}
+
+.dropdown-menu > ul > li>a:hover, 
+.dropdown-menu > ul > li>a:focus{
+	color: #000000;
+}
+
+
+/* Header area - 2
+================================================== */
+
+/*-- Header bgnone fixed --*/
+
+.header-bgnone{
+	background: #ea4c89;
+}
+
+
+/* Slideshow
+================================================== */
+
+/*-- Main slide --*/
+
+#main-slide .carousel-indicators li.active,
+#main-slide .carousel-indicators li:hover {
+    background-color: #e34e71
+}
+
+#main-slide .carousel-control i:hover{
+	background: #e34e71;
+}
+
+
+/* Image Block
+================================================== */
+
+.image-block-content .feature-icon{
+	background: #c10042;
+}
+
+
+
+/* Portfolio
+================================================== */
+
+.isotope-nav ul li a{
+	border: 1px solid #c10042;
+}
+
+.isotope-nav ul a.active, 
+.isotope-nav ul a:hover{
+	background: #c10042;
+}
+
+.isotope-nav ul a.active:after, 
+.isotope-nav ul a:hover:after{
+	border-color: #c10042 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+
+/* Feature box
+================================================== */
+.feature-icon{
+	color: #e34e71;
+}
+
+.feature-center-icon{
+	color: #e34e71;
+}
+
+
+/* About us
+================================================== */
+
+/* Featured Tab */
+
+.featured-tab .nav-tabs>li.active>a{
+	background: #e34e71;
+}
+
+.featured-tab .nav-tabs>li.active>a:after{
+	border-left-color: #e34e71;
+}
+
+.featured-tab .nav-tabs>li>a:hover{
+	background: #e34e71;
+	color: #fff;
+}
+.featured-tab .nav-tabs>li>a:hover:after{
+	border-left-color: #e34e71;
+}
+
+/* Pricing table
+================================================== */
+
+.plan.featured .plan-price{
+	background: #49a2e7;
+}
+.plan.featured .plan-price:after{
+	border-top-color: #49a2e7;
+}
+
+/* Testimonial
+================================================== */
+
+.testimonial-slide .testimonial-text:before{
+	color: #49a2e7;
+}
+
+.testimonial-slide .testimonial-text:after{
+	color: #49a2e7;
+}
+
+.testimonial-slide.owl-theme .owl-controls .owl-page.active span{
+	background: #49a2e7;
+}
+
+/* Recent Post
+================================================== */
+
+.post-img-overlay a:hover{
+	background: #e34e71;
+}
+
+
+/* Footer
+================================================== */
+
+.copyright-info a:hover{
+	color: #49a2e7;
+}
+
+.footer2 .copyright-info a{
+	color: #49a2e7;
+}
+
+#back-to-top .btn.btn-primary:hover{
+	background: #49a2e7;
+}
+
+.footer-about-us h4{
+	color: #49a2e7;
+}
+
+.footer-widget .latest-post-content h4 a:hover{
+	color: #49a2e7;
+}
+
+.subscribe button{
+	background: #49a2e7;
+}
+
+
+
+/* Blog Item page
+================================================== */
+
+.post-meta a:hover{
+	color: #e34e71;
+}
+
+.author-url span a:hover{
+	color: #e34e71;
+}
+
+.comments-counter a:hover{
+	color: #49a2e7;
+}
+
+.comments-list .comment-reply:hover{
+	color: #e34e71;
+}
+
+/*-- Blog sidebar --*/
+
+.widget-tab .nav-tabs>li.active>a{
+	background: #e34e71;
+}
+
+.widget-tab h4.entry-title a:hover{
+	color: #e34e71;
+}
+
+.widget-tags ul > li a:hover{
+	background: #e34e71;
+}
+
+/* Landing page
+================================================== */
+
+.landing-header.header-bgnone ul.navbar-nav > li:hover > a, 
+.landing-header.header-bgnone ul.navbar-nav > li.active > a {
+	color: #49a2e7;
+}
+
+.features-content .features-icon{
+	color: #49a2e7;
+}
+
+.landing_facts{
+	background: #49a2e7;
+}
+
+.landing-tab .nav-tabs>li.active{
+	border-right: 5px solid #e34e70cf;
+}
+
+.landing-tab .nav-tabs>li.active>a i{
+	color: #e34e70cf;
+}
+
+.landing-tab .nav-tabs>li>a:hover{
+	color: #e34e70cf !important;
+}
+
+.landing-tab .tab-pane i.big{
+	color: #e34e70cf;
+}
+
+.app-gallery.owl-theme .owl-controls .owl-page.active span{
+	background: #49a2e7;
+}
+
+.landing_page_clients{
+	background: #49a2e7;
+}
+.color_icon{
+	color: #e34e70cf;
+	font-size: 80px;
+}
+.icon_map{
+	color: #e34e70cf;
+	font-size: 40px;
+}
+/* Misc */
+
+.title-border{
+	border-bottom: 2px solid #49a2e7;
+}
+
+.post-title a:hover{
+	color: #49a2e7;
+}
+
+.portfolio-static-desc a:hover{
+	color: #49a2e7;
+}
+
+.client-carousel .item a:hover{
+	border: 1px solid #49a2e7;
+}
+
+.footer ul li a:hover{
+	color: #49a2e7;
+}
+
+.call-to-action{
+	background: #49a2e7;
+}
+
+.blog-date{
+	background: #49a2e7;
+}
+
+.widget-categories ul.category-list  li a:hover{
+	color: #49a2e7;
+}
+
+.about-message ul li a:hover{
+	color: #49a2e7;
+}
